@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-  }
-  .texto-encima {
+}
+.texto-encima {
     position: absolute;
     top: 260px;
     left: 1090px;
@@ -12,8 +12,8 @@
     font-weight: bold;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-  }
-  .texto-encima2 {
+}
+.texto-encima2 {
     position: absolute;
     top: 390px;
     left: 1030px;
@@ -24,41 +24,41 @@
     font-weight: bold;
     text-align: left;
     font-family: 'Quicksand', sans-serif;
-  }
-  .fondo{
-  width: 100%;
-  height: 100%;
-  }
-  body{
+}
+.fondo{
+width: 100%;
+height: 100%;
+}
+body{
     margin: 0% auto;
-  
-  }
-  .proyectos{
+
+}
+.proyectos{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-  }
-  .column-1{
+}
+.column-1{
     width: 100%;
-  }
-  .column-2{
+}
+.column-2{
     width: 50%;
     font-family: 'Quicksand', sans-serif;
-  }
-  .column-3{
+}
+.column-3{
     width: 33.33%;
     float: left;
     padding: 6%;
     margin: 20px;
-  }
-  .idea{
+}
+.idea{
     display: flex;
     flex-direction:column-reverse;
     background-color: rgb(1, 156, 156);
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-  }
-  .bcn{
+}
+.bcn{
     display: flex;
     flex-direction:row;
     background-color: rgba(0,0,0,0.473);
@@ -66,30 +66,127 @@
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     margin: 0;
-  }
-  .margin{
+}
+.margin{
     margin-left: 0%;
-  }
-  
-  .imagen{
+}
+
+.imagen{
     width: 250px;
     height: 250px;
-  }
-  .row{
+}
+.row{
     display: flex;
     
-  }
-  .espacio2{
+}
+.espacio2{
     margin-left: 110px;
     color: black;
-  }
-  .top{
+}
+.top{
     padding-top: 1%;
-  
-  }
-  .black{
+
+}
+.black{
     color: black;
-  }
-  .espaciado{
+}
+.espaciado{
     margin-left: 7%;
-  }
+}
+.año{
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.column-20{
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}
+.column-30{
+float: left;
+margin-left: 80px;
+text-align: left;
+}
+.iframe{
+    width:600px; 
+    height:350px;
+    border:0;
+}
+@media screen and (max-width:768px){
+    .imagen{
+        width: calc(150% - 5px);
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+    }
+    .column-2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .izq{
+        width: 100%;
+        
+    }
+    .der{
+        width: 100%;
+    }
+    .texto-encima {
+        position: absolute;
+        top: 100px;
+        left: 320px;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .texto-encima2 {
+        position: absolute;
+        top: 170px;
+        left: 300px;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .espaciado{
+        margin-left: 3%;
+    }
+    .espacio2{
+        margin-left: 50px;
+    }
+    .column-3 {
+        width: 30%;
+    }
+    .row {
+        display: flex;
+        flex-direction:column;
+    }
+    .dos{
+        float:left;
+
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+    }
+    .iframe{
+    width: 800px;
+    }
+
+}
