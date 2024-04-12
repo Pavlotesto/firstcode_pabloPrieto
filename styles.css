@@ -40,3 +40,56 @@
   .column-1{
     width: 100%;
   }
+  .column-2{
+    width: 50%;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .column-3{
+    width: 33.33%;
+    float: left;
+    padding: 6%;
+    margin: 20px;
+  }
+  .idea{
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: rgb(1, 156, 156);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+  .bcn{
+    display: flex;
+    flex-direction:row;
+    background-color: rgba(0,0,0,0.473);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  .margin{
+    margin-left: 0%;
+  }
+  
+  .imagen{
+    width: 250px;
+    height: 250px;
+  }
+  .row{
+    display: flex;
+    
+  }
+  .espacio2{
+    margin-left: 110px;
+    color: black;
+  }
+  .top{
+    padding-top: 1%;
+  
+  }
+  .black{
+    color: black;
+  }
+  .espaciado{
+    margin-left: 7%;
+  }
